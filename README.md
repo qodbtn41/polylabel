@@ -1,4 +1,4 @@
 ## PolyLabel.cs Added
 ## Convert PolyLabel.js to C#
 
-## polylabel [![Build Status](https://travis-ci.org/mapbox/polylabel.svg?branch=master)](https://travis-ci.org/mapbox/polylabel)
+## polylabel https://blog.mapbox.com/a-new-algorithm-for-finding-a-visual-center-of-a-polygon-7c77e6492fbc
