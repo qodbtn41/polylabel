@@ -6,17 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tsb.sRoRo.Sm.Client.Util.Code
+namespace PolyLabel
 {
-    //function Cell(x, y, h, polygon) {
-//    this.x = x; // cell center x
-//    this.y = y; // cell center y
-//    this.h = h; // half the cell size
-//    this.d = pointToPolygonDist(x, y, polygon); // distance from cell center to polygon
-//    this.max = this.d + this.h * Math.SQRT2; // max distance to polygon within a cell
-//}
-
-
     public class PolyLabel
     {
         public static PolyLabel _polyLabel = null;
@@ -203,18 +194,4 @@ namespace Tsb.sRoRo.Sm.Client.Util.Code
             }
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
