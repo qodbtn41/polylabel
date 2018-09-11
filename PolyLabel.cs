@@ -140,7 +140,7 @@ namespace PolyLabel
                 this.y = y;
                 this.h = h;
                 this.d = PointToPolygonDist(x, y, polygon);
-                this.max = Convert.ToSingle(Math.Sqrt(this.d + this.h));
+                this.max = Convert.ToSingle(this.d + this.h * Math.Sqrt(2));
             }
 
             float PointToPolygonDist(float x, float y, List<PointF> polygon)
