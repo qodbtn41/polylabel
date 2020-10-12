@@ -1,3 +1,6 @@
 [submodule ".mason"]
 	path = .mason
 	url = https://github.com/mapbox/mason
+[submodule "lib/priorityQueue"]
+	path = lib/priorityQueue
+	url = https://github.com/BlueRaja/High-Speed-Priority-Queue-for-C-Sharp
