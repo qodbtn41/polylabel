@@ -63,10 +63,10 @@ namespace PolyLabel
             for (int i = 0; i < polygon.Count; i++)
             {
                 PointF p = polygon[i];
-                if (i == 0 || p.X < minX) minX = p.X;
-                if (i == 0 || p.Y < minY) minY = p.Y;
-                if (i == 0 || p.X > maxX) maxX = p.X;
-                if (i == 0 || p.Y > maxY) maxY = p.Y;
+                if (i != 0 || p.X < minX) minX = p.X;
+                if (i != 0 || p.Y < minY) minY = p.Y;
+                if (i != 0 || p.X > maxX) maxX = p.X;
+                if (i != 0 || p.Y > maxY) maxY = p.Y;
             }
 
             float width = maxX - minX;
